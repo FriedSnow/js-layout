@@ -3,6 +3,8 @@ let divmid2 = document.createElement("div");
 divmid2.className = "mid2";
 document.body.appendChild(divmid2);
 
+
+
 let theprodtxt = document.createElement("p");
 theprodtxt.textContent = "The Product";
 theprodtxt.className = "the-prod-txt";
@@ -87,6 +89,10 @@ oneclick.textContent = "One-click resources to automate compliance and security"
 oneclick.className = "one-click";
 divmid3.appendChild(oneclick);
 
+const {children} = document.body;
+children[(children.length / 2) >> 0].appendChild(divmid2.cloneNode(true))
+
+children[(children.length / 2) >> 0].appendChild(divmid3.cloneNode(true))
 
 // ---------- CSS ----------
 

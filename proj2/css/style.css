@@ -3,52 +3,52 @@
     src: url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 }
 
-.all {
+.body {
     height: 5337px;
     width: 1440px;
 }
 
 .header {
     display: block;
-    width: 100%;
+    width: 1440px;
     height: 120px;
     flex-shrink: 0;
 }
 
 .mid1 {
-    width: 100%;
+    width: 1440px;
     height: 1305px;
     background-color: #f3f7f4;
 }
 
 .mid2 {
-    width: 100%;
+    width: 1440px;
     height: 728px;
     background-color: #ffffff;
 }
 
 .mid3 {
-    width: 100%;
+    width: 1440px;
     height: 533px;
     background-color: #f3f7f4;
     padding: 230px 0px 0px 0px;
 }
 
 .mid4 {
-    width: 100%;
+    width: 1440px;
     height: 850px;
     background-color: #ffffff;
 }
 
 .mid5 {
-    width: 100%;
+    width: 1440px;
     height: 602px;
     background-color: #f3f7f4;
     padding: 10px;
 }
 
 .footer {
-    width: 101.3%;
+    width: 1460px;
     height: 639px;
     flex-shrink: 0;
     background-color: #101C21;
